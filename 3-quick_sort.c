@@ -46,7 +46,7 @@ int _split(int *arr, int min, int last, size_t size)
 	_swap(&arr[i], &arr[last]);
 	if (i != j)
 		print_array(arr, size);
-	
+
 	return (i);
 }
 
