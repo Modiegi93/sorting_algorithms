@@ -36,7 +36,7 @@ void _largest(int *array, size_t size, int i, const int r_size)
 {
 	int largest = i;
 	int lft = (2 * i) + 1;
-	int rgt = (2 * 1) + 2;
+	int rgt = (2 * i) + 2;
 
 	if (lft < (int)size && array[lft] > array[largest])
 		largest = lft;
